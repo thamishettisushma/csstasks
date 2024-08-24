@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: black;  
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            width: 98%;
+            height: 5vh;
+            letter-spacing: 4px;
+            font-size: x-large;
+            position: fixed;
+            z-index: 1;
+            top: 0%;
+            padding: 15px;
+           
+            
+        }
+        .i1{
+            display: flex;
+            gap: 40px;
+        }
+        .b1{
+            /*background-image: url("https://www.w3schools.com/w3images/hamburger.jpg");*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 600px;
+            position: relative;
+            font-size: xx-large;
+           
+        
+        }
+        .p1{
+            
+            position: absolute;
+            bottom: 8px;
+            left: 5%;
+            font-weight: 900;
+            letter-spacing: 4px;
+            color: grey;
+
+        }
+        .b2{
+            display: flex;
+        }
+        .b2a{
+            flex-basis: 30%;
+            margin-left: 10%;
+           
+           
+        }
+        .b2b{
+            flex-basis: 70%;
+           margin-right: 10%;
+           margin-left: 5%;
+           word-spacing: 5px;
+        }
+        .b3{
+            display: flex;
+        }
+        .b3a{
+            flex-basis: 70%;
+            margin-left: 10%;
+            
+        }
+        .b3b{
+            flex-basis: 30%;
+            margin-right: 10%;
+        }
+        .item{
+            font-size: larger;
+            letter-spacing: 8px;
+        }
+        .itemdescription{
+            color: grey;
+        }
+        .b4{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .end{
+            width: 100%;
+            height: 8vh;
+            padding: 5px;
+            border: none;
+            font-size: larger;
+            
+        }
+        .b5{
+            text-align: center;
+            background-color: rgb(218, 229, 240);
+            height: 20vh;
+            
+        }
+       
+        
+      
+       
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="container">
+        <header>Gourmet au Catering</header>
+        <div class="i1">
+         <div><a href="#About" >About</a></div>
+         <div><a href="#Menu"  >Menu</a></div>
+         <div><a href="#Contact"  >Contact</a></div>
+        </div>
+    </div>
+   </nav>
+    <div class="b1">
+       <img src="https://www.w3schools.com/w3images/hamburger.jpg"    style="margin-top: 20px;" width="100%" height="100%" >
+      <p class="p1">Le Catering</p>
+       
+    </div>
+    <br><br><hr style="margin-left: 10%; margin-right: 10%;"><br><br>
+    <div class="b2">
+        <div class="b2a"><img src="https://www.w3schools.com/w3images/tablesetting2.jpg"></div>
+        <div class="b2b" id="About"><br><p  style="text-align: center;letter-spacing: 5px;font-size: 250%; " >About  Catering</p>
+        <br><br>
+        <p style="text-align: center; letter-spacing: 8px; font-size: larger;"> Tradition since 1889</p><br>
+        <p style="font-size: larger;line-height: 30px;" >The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing eat consectetur adipiscing eat, sed do eiusmod tempor incididunt ut labore et dolore magna aaqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aaquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate veat esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+        <br>
+        <p style="color: grey;line-height: 30px;font-size: larger;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt molat anim id est laborum consectetur adipiscing eat, sed do eiusmod temporincididunt ut labore et dolore magna aaqua
+        . Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aaquip ex ea commodo consequat.  </p>
+        </div>
+
+    </div>
+    <br><br><hr style="margin-left: 10%; margin-right: 10%;"><br><br>
+    <div class="b3" id="Menu">
+        <div class="b3a"><p style="text-align: center; font-size: 250%;letter-spacing: 5px;">Our Menu</p>
+        <p class="item">Bread Basket</p>
+        <p class="itemdescription">Assortment of fresh baked fruits breads and muffens 5.50</p><br>
+        <p class="item">Honey Almond Granola with Fruits</p>
+        <p class="itemdescription">Natuaral cereal of honey toasted oats,rasinis,almonds and dates 7.00</p><br>
+        <p class="item">Belgian Waffle</p>
+        <p class="itemdescription"> vanilla flavoured batter with malted flour 7.50</p><br>
+        <p class="item">Scrambled eggs</p>
+        <p class="itemdescription">Scrambled eggs,roasted red pepper and garac,with green onions 7.50</p><br>
+        <p class="item">Blueberry Pancakes</p>
+        <p class="itemdescription">With syrup,butter and lots of berries 8.50</p><br>
+        </div>
+        <div class="b3b"><img src="https://www.w3schools.com/w3images/tablesetting.jpg"></div>
+    </div>
+    <br><br><hr style="margin-left: 10%; margin-right: 10%;"><br><br>
+    <div class="b4" id="Contact"><p style="font-size: 250%; letter-spacing: 4px;" class="contact">Contact</p>
+        We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.
+        <p style="color: navy;font-size: larger;">Catering Service, 42nd aving St, 43043 New York, NY</p>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+        <br>
+        <input type="text" placeholder="Name" class="end" ><hr >
+        <input type="number" placeholder="How many persons" class="end"><hr>
+        <input type="datetime-local"  class="end"><hr>
+        <input type=" text" placeholder="Message\Special requirements" class="end"><hr>
+        <input type="button" value="SEND MESSAGE" style="font-size: larger;padding: 10px;border: none;background-color: rgb(218, 229, 240)">
+      
+    </div>
+    <br><br>
+    <div class="b5"><p style="margin-top: 5%;"><br><br>Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p></div>
+</body>
+</html>

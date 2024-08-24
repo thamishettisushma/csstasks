@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown button{
+            width: 20vw;
+            height: 20vh;
+            background-color: rgb(30, 148, 30);
+            color: white;
+            font-size: xx-large;
+            padding: 15px 15px;
+            border:none;
+          
+        }
+
+        .dropdown a{
+            padding: 10px;
+            display: block;
+            color: black;
+            width: 50px;
+            font-size: x-large;
+            text-decoration: none;
+            
+            
+        }
+        .dropdown .content {
+            position: absolute;
+            display: none ;
+            background-color: red;
+            color:aqua;
+            border: 10px;
+            width:10vw;
+            height: 20vh;
+            padding: 15px 15px;
+            margin-left: 50%;
+            
+
+        }
+        
+        .dropdown:hover .content{
+           display: block;
+        }
+
+        
+       
+              
+       
+    </style>
+    
+</head>
+<body><center>
+   <div class="dropdown">
+          <button>INFO</button>
+      <div class="content" style="width: 20%; box-shadow: 5px 5px black; ">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Content</a>
+      </div>
+   
+   </div>
+</center>
+</body>
+</html>
